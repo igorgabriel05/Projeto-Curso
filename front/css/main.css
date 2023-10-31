@@ -1,0 +1,176 @@
+body{
+    background-color: #222;
+}
+
+.setas{
+    color: #fff;
+    margin: 20px 7em;
+    font-size: 7em;
+}
+
+.modelos{
+    text-align: center;
+    justify-content: space-around;
+}
+
+.img-model{
+    display: flex;
+    margin: 3em 28em;
+    justify-content: space-around;
+}
+
+.modelo-fem, .modelo-masc{
+    width: 350px;
+    border-radius: 100px;
+}
+
+.h1-modelo{
+    color: #fff;
+    margin: 20px;
+}
+
+.p-modelo{
+    color: #fff;
+}
+
+.times{
+    display: flex;
+    background-color: #fff;
+    gap: 3px;
+    border-radius: 50px;
+    margin: 5em 10em;
+}
+
+.img-times{
+    width: 80px;
+    padding: 10px;
+}
+
+.camisas-brasileiras, .camisas-internacionais, .camisas-selecoes, .melhores-marcas{
+    margin: 10px 10em;
+}
+
+.h1-camisa-br, .h1-camisa-en, .h1-camisa-sl, .h1-marcas{
+    color: #fff;
+    font-size: 2em;
+}
+
+.h1-camisa-en, .h1-camisa-sl, .h1-marcas{
+    margin-top: 3em;
+}
+
+.camisas{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.camisa{
+    width: 95%;
+    height: 90%;
+    background-color: #ebebeb;
+    padding: 20px;
+    margin: 2em 0;
+    border-radius: 30px;
+}
+
+.img-camisa{
+    width: 100%;
+    border-radius: 25px;
+}
+
+.lan{
+    display: flex;
+}
+
+.lancamento{
+    background: #192C53;
+    color: #ffffff;
+    padding: 5px 7px;
+    border-radius: 20px;
+    margin: 5px 10px 5px 0;
+    font-size: 14px;
+}
+
+.personalize{
+    border: 1px solid #192C53;
+    padding: 5px 7px;
+    border-radius: 20px;
+    margin: 5px 10px 5px 0;
+    font-size: 14px;
+}
+
+.p-descricao{
+    padding-top: 20px;
+    height: 3.9em;
+    font-size: 1.1em;
+    color: #192C53;
+    font-weight: 500;
+    padding-top: 5px;
+}
+
+.p-linha{
+    color: #747474;
+}
+
+.p-preco{
+    font-size: 1.5em;
+    color: #192C53;
+    font-weight: 800;
+}
+
+.p-desconto{
+    color: #192C53;
+    font-size: 13px;
+}
+
+.nike, .adidas, .puma, .umbro, .new-balance, .kappa{
+    border-right: 1px solid #ebebeb;
+    padding-right: 50px;
+    padding-left: 20px;
+    margin-top: 5px;
+}
+
+.reebok{
+    padding-right: 50px;
+    margin-top: 5px;
+    padding-left: 20px;
+}
+
+
+.img-marcas{
+    width: 80px;
+    background-color: #fff;
+    margin: 10px;
+    padding-right: 10px;
+}
+
+.marcas{
+    display: flex;
+    background-color: #fff;
+    border-radius: 15px;
+    gap: 4em;
+    margin: 2em 0;
+}
+
+.footer{
+    background-color: #F4F5F8;
+}
+
+.fa-whatsapp{
+    padding: 0;
+    font-size: 16px;
+}
+
+.contato{
+    display: flex;
+    margin: 2em 10em;
+    padding: 2em 0;
+}
+
+.institucional, .ajuda, .atendimento{
+    margin-right: 10em;
+}
+
+.institucional a, .ajuda a, .atendimento a{
+    text-decoration: none;
+}

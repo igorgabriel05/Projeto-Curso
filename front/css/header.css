@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 10px;
+    background-color: #000;
+    color: #fff;
+}
+
+.accounts{
+    font-size: 0.7em;
+    font-weight: bold;
+    display: flex;
+}
+
+.a-account:hover{
+    color: #2ae319;
+    transition: 1s;
+}
+
+.a-account{
+    color: #fff;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+.a-sm{
+    color: #2ae319;
+    text-decoration: none;
+}
+
+.facebook:hover{
+    background-color: #3379b7;
+    color: #fff;
+    padding-bottom: 4px;
+    transition: 0.6s;
+}
+
+.twitter:hover{
+    background-color: #66b3f6;
+    color: #fff;
+    padding-bottom: 4px;
+    transition: 0.6s;
+}
+
+.instagram:hover{
+    background-color: #ffa600b7;
+    color: #fff;
+    padding-bottom: 4px;
+    transition: 0.6s;
+}
+
+.youtube:hover{
+    background-color: #ff0000b7;
+    color: #fff;
+    padding-bottom: 4px;
+    transition: 0.6s;
+}
+
+.p-account{
+    padding: 0.2em 1em 0 1em;
+}
+
+.fa-brands{
+    font-size: 0.8em;
+    padding: 0 0.6em 0.4em 0.6em;
+}
+
+header{
+    background-color: rgb(75, 80, 209);
+    color: #2ae319;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 15vw;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+.fa-bars{
+    height: 100%;
+    margin: auto 0;
+    font-size: 2em;
+}
+
+.img-header{
+    width: 120px;
+    height: 60px;
+}
+
+.div-input-header{
+    display: flex;
+    width: 52%;
+    height: 45px;
+    margin: auto 0;
+    background-color: #fff;
+    color: #222;
+    border-radius: 100px;
+}
+
+.input-header{
+    height: 100%;
+    width: 93%;
+    border: none;
+    border-radius: 100px;
+    font-size: 1.1em;
+    padding: 1em;
+    outline: none;
+}
+
+.icon-search{
+    margin: auto;
+}
+
+.entre{
+    display: flex;
+    margin: auto 0;
+    text-decoration: none;
+    color: #2ae319;
+}
+
+.entre p{
+    font-size: 1.1em;
+}
+
+.fa-user{
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.fa-cart-shopping{
+    margin: auto 0;
+    font-size: 1.5em;
+}
